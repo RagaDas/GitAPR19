@@ -12,13 +12,18 @@ public class Math {
         int Product = x*y;
         return Product;
     }
+
+    public int Division(int x, int y){
+        int Quotient = x*y;
+        return Quotient;
+    }
     public static void main(String args[]){
         Math M = new Math();
-        int Result = M.Add(5,3);
-        System.out.println(Result);
-        Result = M.Subtract(5,3);
-        System.out.println(Result);
-        Result = M.Multiply (5,3);
-        System.out.println(Result);
+        int Result1 = M.Add(5,3);
+        System.out.println(Result1);
+        int Result2 = M.Subtract(5,3);
+        System.out.println(Result2);
+        int Result3 = M.Multiply (5,3);
+        System.out.println(Result3);
     }
 }
